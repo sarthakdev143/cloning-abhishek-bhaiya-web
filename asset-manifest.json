@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cloning-abhishek-bhaiya-web/static/css/main.dd49b696.css",
+    "main.js": "/cloning-abhishek-bhaiya-web/static/js/main.5a85ecca.js",
+    "static/js/453.c8b3b039.chunk.js": "/cloning-abhishek-bhaiya-web/static/js/453.c8b3b039.chunk.js",
+    "index.html": "/cloning-abhishek-bhaiya-web/index.html",
+    "main.dd49b696.css.map": "/cloning-abhishek-bhaiya-web/static/css/main.dd49b696.css.map",
+    "main.5a85ecca.js.map": "/cloning-abhishek-bhaiya-web/static/js/main.5a85ecca.js.map",
+    "453.c8b3b039.chunk.js.map": "/cloning-abhishek-bhaiya-web/static/js/453.c8b3b039.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd49b696.css",
+    "static/js/main.5a85ecca.js"
+  ]
+}
