@@ -1,0 +1,55 @@
+#ContactUs {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+
+    #container {
+        width: 47%;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4.5rem 0;
+        gap: 3rem;
+
+        h1 {
+            text-transform: uppercase;
+            font-family: 'Montserrat', arial, sans-serif;
+            font-weight: 1000;
+            font-size: 3.18rem;
+            color: #E5EBEC;
+        }
+
+        p {
+            color: rgb(148, 148, 148);
+            text-align: center;
+            font-size: 1.3rem;
+        }
+
+        a {
+            text-decoration: none;
+
+            button {
+                width: 24rem;
+                height: 5rem;
+                background: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 0.6rem;
+                font-size: 1.27rem;
+                font-weight: 600;
+
+                img {
+                    width: 2rem;
+                }
+            }
+        }
+
+        span {
+            color: #fff;
+            font-size: 1.8rem;
+        }
+    }
+}

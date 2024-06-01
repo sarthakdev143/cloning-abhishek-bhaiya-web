@@ -1,0 +1,60 @@
+#aboutUs {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    background: #000;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        width: 97rem;
+        padding: 0 2.1rem;
+        height: fit-content;
+        
+        &>h1 {
+            color: #E5EBEC;
+            text-transform: uppercase;
+            font-size: 3.2rem;
+            text-align: center;
+            font-weight: 800;
+            font-family: 'Archivo Black', arial, sans-serif;
+        }
+
+        #row {
+            display: flex;
+            height: fit-content;
+            width: 100%;
+            flex-grow: 1;
+            position: relative;
+
+            figure,
+            article {
+                width: 54%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                
+                img {
+                    width: 100%;
+                }
+            }
+            
+            article {
+                width: 58% !important;
+                padding: 0 3.3rem;
+                text-align: center;
+                color: grey;
+                font-size: 1.2rem;
+                font-family: 'Montserrat', arial, sans-serif;
+                font-weight: bold;
+                font-size: 1.4rem;
+                line-height: 2rem;
+            }
+        }
+    }
+}

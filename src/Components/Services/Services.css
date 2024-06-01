@@ -1,0 +1,69 @@
+#services {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    padding-top: 9.4rem;
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        width: 50%;
+
+        #heading {
+            font-family: 'Archivo Black', arial, sans-serif;
+            font-weight: 800;
+            text-transform: uppercase;
+            font-size: 3.2rem;
+            color: #E5EBEC;
+        }
+
+        #box-wrapper {
+            display: grid;
+            gap: 4rem;
+            grid-template-columns: repeat(2, 1fr);
+
+            #box {
+                width: 28.3rem;
+                position: relative;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                font-family: 'Montserrat', arial, sans-serif;
+
+                figure {
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 1.8rem;
+
+                    img {
+                        width: 100%;
+                        object-fit: cover;
+                    }
+
+                    figcaption {
+                        font-family: 'Montserrat', arial, sans-serif;
+                        color: #eee;
+                        font-size: 2rem;
+                    }
+                }
+
+                article {
+                    width: 100%;
+                    color: #949494;
+                    font-size: 1.34rem;
+                }
+            }
+        }
+    }
+}
+
+#footer {
+    margin-top: 5rem;
+}

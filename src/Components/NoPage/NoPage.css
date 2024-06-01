@@ -1,0 +1,37 @@
+#no-page {
+    width: 100%;
+    height: fit-content;
+    padding-top: 17rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+
+    h1 {
+        text-transform: uppercase;
+        font-family: 'Montserrat', arial, sans-serif;
+        font-weight: 1000;
+        font-size: 3.18rem;
+        color: #E5EBEC;
+    }
+
+    p {
+        color: rgb(148, 148, 148);
+        text-align: center;
+        font-size: 1.85rem;
+    }
+
+    button {
+        width: 18rem;
+        height: 5rem;
+        background: #fff;
+        color: #000;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+    }
+}
+
+#footer {
+    width: 100%;
+}

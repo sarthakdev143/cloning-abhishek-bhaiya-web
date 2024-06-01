@@ -1,0 +1,31 @@
+#social {
+    width: 100%;
+    height: fit-content;
+    background: #000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem 0;
+    gap: 4rem;
+
+    h1 {
+        font-size: 1.7rem;
+        color: #fff;
+        font-weight: 1000;
+        text-transform: uppercase;
+        font-size: 3.2rem;
+        font-family: 'Archivo Black', arial, sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+
+        i {
+            font-size: 3rem;
+            color: #000;
+            background: #fff;
+            border-radius: 50%;
+            padding: 0.1rem;
+        }
+    }
+}
