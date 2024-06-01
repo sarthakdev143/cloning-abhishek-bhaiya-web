@@ -14,7 +14,8 @@ const NoPage = () => {
           <button>go to home page</button>
         </Link>
       </section>
-      <Footer id='footer' />
+      <div id='space' style={{ width: "100%", height: "6rem" }}></div>
+      <Footer />
       <Message />
     </>
   )
