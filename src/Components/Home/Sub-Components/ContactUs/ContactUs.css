@@ -19,6 +19,7 @@
             font-weight: 1000;
             font-size: 3.18rem;
             color: #E5EBEC;
+            white-space: nowrap;
         }
 
         p {
@@ -50,6 +51,28 @@
         span {
             color: #fff;
             font-size: 1.8rem;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #ContactUs {
+        #container {
+            gap: 3rem !important;
+            width: 100%;
+
+            h1 {
+                margin-bottom: -2rem;
+            }
+
+            p {
+                width: 100% !important;
+            }
+
+            span {
+                display: flex;
+                font-size: 1.7rem;
+            }
         }
     }
 }

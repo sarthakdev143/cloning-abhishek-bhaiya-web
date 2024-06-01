@@ -17,5 +17,16 @@
     p {
         color: rgb(148, 148, 148);
         font-size: 1.17rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    #footer {
+        padding-bottom: 4rem;
+
+        h1 {
+            font-size: 1.4rem !important;
+        }
     }
 }

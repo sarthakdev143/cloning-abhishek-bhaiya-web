@@ -45,7 +45,7 @@
             }
             
             article {
-                width: 58% !important;
+                width: 58%;
                 padding: 0 3.3rem;
                 text-align: center;
                 color: grey;
@@ -57,4 +57,28 @@
             }
         }
     }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem !important;
+        transform: translateY(-1rem);
+    }
+
+    #row {
+        flex-direction: column;
+        gap: 1.6rem;
+
+        figure, article {
+            width: 100% !important;
+        }
+
+        article {
+            width: 100% !important;
+        }
+
+        &:nth-child(3) {
+            flex-direction: column-reverse;
+        }
+    }    
 }

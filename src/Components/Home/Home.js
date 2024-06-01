@@ -13,9 +13,9 @@ const Home = () => {
     return (
         <div>
             <Video />
-            <div id='space' style={{ width: "100%", height: "72rem" }}></div>
+            <div id='space1' style={{ width: "100%", height: "72rem" }}></div>
             <Features />
-            <div id='space' style={{ width: "100%", height: "24rem" }}></div>
+            <div id='space2' style={{ width: "100%", height: "24rem" }}></div>
             <AboutUs />
             <OnlineResume />
             <Profile />

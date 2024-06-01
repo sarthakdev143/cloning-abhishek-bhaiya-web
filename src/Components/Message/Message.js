@@ -12,6 +12,7 @@ const Message = () => {
         <section id='message' className='relative'>
             <form id='message-box' style={{ display: isVisible ? 'block' : 'none' }}>
                 <div id='form-content' className='fdc faic'>
+                    <i className="ri-close-line" onClick={handleClick}></i>
                     <h1>Abhishek Yadav</h1>
                     <div>
                         <p>Hi! Let us know how we can help and we’ll respond shortly.</p>
