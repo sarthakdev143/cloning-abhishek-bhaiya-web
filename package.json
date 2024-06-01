@@ -13,8 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -40,6 +40,8 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1",
+    "react-app-rewire-html-webpack-plugin": "^1.1.0",
+    "react-app-rewired": "^2.2.1",
     "react-router-dom": "^6.23.1"
   }
 }
